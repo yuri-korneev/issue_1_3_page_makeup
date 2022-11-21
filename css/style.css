@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+} 
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #FFFFFF;
+  } 
+
+.main-header {
+  font-family: 'Graphik LCG', sans-serif;
+  font-size: 48px;
+  color: #222020;
+  margin: 30px;
+  margin-left: 100px;
+  padding-top: 100px;
+} 
+
+.header2 {
+  font-family: 'Graphik LCG', sans-serif;
+  font-size: 36px;
+  color: #222020;
+  margin-left: 180px;
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
+.figure {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  padding-left: 200px;
+  text-align: center;
+  }
+
+.back {
+  padding-left: 30px;
+  background-image: url("../img/return.png");
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+.list {
+  padding: 0;
+  padding-left: 200px;
+  color: blue;
+  font-size: 112.5%;
+ }
+
+ .paragraph {
+  padding-left: 180px;
+  padding-bottom: 20px;
+ }
+
+a {
+  color: inherit; /*отмена цвета ссылки*/ 
+  /* text-decoration: none; отмена подчеркивания ссылки*/
+}
+
+.download {
+padding: 20px;
+color:red;
+background-color: #2f1ce4;
+border: 3px solid;
+border-color: black;
+}
+
+.detailed {
+  padding: 20px;
+  color: green;
+  background-color: rgba(0, 0, 205, 0.3);
+  border: 3px solid;
+  border-color: black;
+  }
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.table {
+  border-collapse: collapse; /* Убираем двойные линии */
+  border-spacing: 0; /* Расстояние между ячеек */
+  margin-top: 100px;
+ }
+
+ .table tfoot {
+  border: 1px solid; /* Параметры границ */
+  padding: 5px; /* Поля в ячейках */
+  text-align: center; /* Выравнивание по центру */
+ }
+
+ .table td {
+ border: 1px solid; /* Параметры границ */
+ padding: 5px; /* Поля в ячейках */
+ text-align: left; /* Выравнивание по центру */
+}
+
+.table th {
+ border: 1px solid; /* Параметры границ */
+ padding: 5px; /* Поля в ячейках */
+ text-align: center; /* Выравнивание по центру */
+}
+
+
+
